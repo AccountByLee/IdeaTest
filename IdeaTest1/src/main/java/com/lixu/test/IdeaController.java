@@ -13,7 +13,8 @@ public class IdeaController {
     @RequestMapping("hello")
     @ResponseBody
     public  String sayHello(){
-        return "hello" + System.currentTimeMillis();
+
+        return "hello" + System.currentTimeMillis() +"this is two version";
     }
 
 
