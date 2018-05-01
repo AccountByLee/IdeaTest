@@ -13,7 +13,7 @@ public class IdeaController {
     @RequestMapping("hello")
     @ResponseBody
     public  String sayHello(){
-
+        System.out.println("新建一个测试分支，用于测试提交");
         return "hello" + System.currentTimeMillis() +"this is two version";
     }
 
